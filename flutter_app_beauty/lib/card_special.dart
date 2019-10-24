@@ -1,7 +1,6 @@
 //长安十二时辰
 
 import 'package:flutter/material.dart';
-
 import 'base_cared.dart';
 
 class CardSpecail extends BaseCard{
@@ -53,7 +52,7 @@ class _CardSpecialState extends BaseCardState{
                   Padding(padding: EdgeInsets.only(top: 5),child:
                   Text("马伯庸",style: TextStyle(fontSize: 13,color:Color(0xff7d725c) ),),)
                 ],
-            ),
+                ),
               Container(
                 margin: EdgeInsets.only(right: 20),
                 padding: EdgeInsets.only(left: 10,right: 10,top: 5,bottom: 5),

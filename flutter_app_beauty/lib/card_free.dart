@@ -85,8 +85,7 @@ class _CardFreeState extends BaseCardState{
 
                  },child: Text('免费领取',style: TextStyle(color:Colors.white,fontSize: 14),),),
                )
-           ,)
-           ;
+           ,);
   }
 
    Widget  _item(Map<String,String>item){

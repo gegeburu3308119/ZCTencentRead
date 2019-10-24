@@ -9,7 +9,7 @@ class CardRecommend extends  BaseCard{
 }
 
 class _CardRecommendState extends BaseCardState{
-   @override
+  @override
   void initState() {
     // TODO: implement initState
        subTitleColor = Color(0xffb99444);
