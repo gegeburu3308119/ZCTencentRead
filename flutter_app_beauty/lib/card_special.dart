@@ -53,15 +53,15 @@ class _CardSpecialState extends BaseCardState{
                   Text("马伯庸",style: TextStyle(fontSize: 13,color:Color(0xff7d725c) ),),)
                 ],
                 ),
-              Container(
-                margin: EdgeInsets.only(right: 20),
-                padding: EdgeInsets.only(left: 10,right: 10,top: 5,bottom: 5),
-                decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(20),
-                  gradient: LinearGradient(colors: [Color(0xffd9bc82),Color(0xffecd9ae)])
-                ),
-                child: Text('分享免费领',style: TextStyle(color: Color(0xff4f3b1a),fontSize: 13),),
-              )
+                Container(
+                  margin: EdgeInsets.only(right: 20),
+                  padding: EdgeInsets.only(left: 10,right: 10,top: 5,bottom: 5),
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(20),
+                    gradient: LinearGradient(colors: [Color(0xffd9bc82),Color(0xffecd9ae)])
+                  ),
+                  child: Text('分享免费领',style: TextStyle(color: Color(0xff4f3b1a),fontSize: 13),),
+                )
               ],
             ),
           )

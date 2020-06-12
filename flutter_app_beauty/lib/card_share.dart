@@ -29,7 +29,7 @@ class _CardShareSatate  extends BaseCardState{
           Expanded(child: Padding(padding: EdgeInsets.only(bottom: 10),
           child: Container(
             constraints:BoxConstraints.expand() ,
-            child:  Image.network("https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1569945911&di=76d2dbdc9e8fd0b4bc07697e8117388a&imgtype=jpg&er=1&src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fitem%2F201802%2F12%2F20180212112320_uVXGh.thumb.700_0.jpeg",
+            child:  Image.network("https://bkimg.cdn.bcebos.com/pic/e850352ac65c1038066af876bb119313b07e8969?x-bce-process=image/watermark,g_7,image_d2F0ZXIvYmFpa2UyNzI=,xp_5,yp_5",
               fit: BoxFit.cover,),
           ),
     ),

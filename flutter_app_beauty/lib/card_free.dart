@@ -60,7 +60,7 @@ class _CardFreeState extends BaseCardState{
         //长宽比
         childAspectRatio: 0.46,
         padding:
-        EdgeInsets.only(left: 20,right: 20 ),
+        EdgeInsets.only(left: 20,right: 20),
         children:
           BOOK_LIST.map((item){
              return _item(item);
@@ -82,11 +82,11 @@ class _CardFreeState extends BaseCardState{
                  ) ,
                  color:Colors.blueAccent ,
                  onPressed: (){
-
                  },child: Text('免费领取',style: TextStyle(color:Colors.white,fontSize: 14),),),
-               )
+            )
            ,);
   }
+
 
    Widget  _item(Map<String,String>item){
     return Container(
